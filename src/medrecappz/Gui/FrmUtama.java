@@ -19,7 +19,7 @@ import java.awt.Dimension;
 //import medrecappx.Gui.Internal.FrmIntPasienLama;
 //import medrecappx.Gui.Internal.FrmIntPerawat;
 //import medrecappx.Gui.Internal.FrmIntPoliklinik;
-//import medrecappx.Gui.Internal.FrmIntSpesialis;
+import medrecappz.Gui.Internal.FrmIntSpesialis;
 //import medrecappx.Gui.Internal.FrmIntStaf;
 //import medrecappx.Gui.Internal.FrmIntTindakan;
 
@@ -234,15 +234,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuSpesialisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSpesialisActionPerformed
         // TODO add your handling code here:
-//        jDesktopPane1.removeAll();
-//        jDesktopPane1.repaint();
-//        FrmIntSpesialis fis = new FrmIntSpesialis();
-//        Dimension parentSize = jDesktopPane1.getSize();
-//        Dimension childSize = fis.getSize();
-//        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
-//        jDesktopPane1.add(fis);
-//        fis.show();
-//        fis.toFront();
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntSpesialis fis = new FrmIntSpesialis();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
     }//GEN-LAST:event_menuSpesialisActionPerformed
 
     private void menuJaminanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuJaminanActionPerformed
