@@ -76,7 +76,7 @@ public class F_StafGuiServiceTest {
 
         frame.textBox("txtNamaStaf").enterText("Syauki");
         frame.button("btnInsert").click();
-        frame.optionPane().requireTitle("Insert Staf Gagal!");
+        frame.optionPane().requireTitle("Insert Staf Berhasil!");
         frame.optionPane().okButton().click();
     }
 
