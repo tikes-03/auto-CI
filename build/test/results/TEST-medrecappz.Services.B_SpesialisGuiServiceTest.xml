@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="14.511" timestamp="2014-05-13T19:20:51">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.B_SpesialisGuiServiceTest" skipped="0" tests="5" time="7.955" timestamp="2014-05-14T00:23:06">
   <properties>
     <property name="default.javac.source" value="1.7" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -78,7 +78,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.B_SpesialisGuiServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher506236674538818895.properties propsfile=F:\6. Repository\auto-CI\build\junit1356571465197126474.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.B_SpesialisGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.B_SpesialisGuiServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher4833078218467634484.properties propsfile=F:\6. Repository\auto-CI\build\junit3820465843370840001.properties" />
     <property name="built-jar.properties" value="F:\6. Repository\auto-CI\build\built-jar.properties" />
     <property name="libs.junit.src" value="" />
     <property name="ant.file" value="F:\6. Repository\auto-CI\build.xml" />
@@ -265,11 +265,11 @@
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="1.71" />
-  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="3.747" />
-  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="1.835" />
-  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="1.313" />
-  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="2.271" />
+  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="a_insertDataSpesialisKosong" time="0.736" />
+  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="b_insertDataSpesialis" time="1.363" />
+  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="c_updateDataSpesialisKosong" time="0.724" />
+  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="d_updateDataSpesialis" time="0.561" />
+  <testcase classname="medrecappz.Services.B_SpesialisGuiServiceTest" name="e_deleteDataSpesialis" time="2.048" />
   <system-out><![CDATA[1. InsertDataSpesialisKosong
 2. InsertDataSpesialis
 3. UpdateDataSpesialisKosong

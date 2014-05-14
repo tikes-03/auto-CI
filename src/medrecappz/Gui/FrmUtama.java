@@ -12,7 +12,7 @@ package medrecappz.Gui;
 
 import java.awt.Dimension;
 //import medrecappx.Gui.Internal.FrmIntDokter;
-//import medrecappx.Gui.Internal.FrmIntJaminan;
+import medrecappz.Gui.Internal.FrmIntJaminan;
 //import medrecappx.Gui.Internal.FrmIntListPasien;
 //import medrecappx.Gui.Internal.FrmIntObat;
 //import medrecappx.Gui.Internal.FrmIntPasienBaru;
@@ -122,6 +122,8 @@ public class FrmUtama extends javax.swing.JFrame {
         menuMaster.add(menuDataTindakan);
         menuMaster.add(jSeparator2);
 
+        jMenu1.setText("SDM");
+
         menuStaf.setText("Data Staf");
         menuStaf.setName("menuDataStaf"); // NOI18N
         menuStaf.addActionListener(new java.awt.event.ActionListener() {
@@ -131,6 +133,7 @@ public class FrmUtama extends javax.swing.JFrame {
         });
         jMenu1.add(menuStaf);
 
+        menuDokter.setText("Data Dokter");
         menuDokter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuDokterActionPerformed(evt);
@@ -138,6 +141,7 @@ public class FrmUtama extends javax.swing.JFrame {
         });
         jMenu1.add(menuDokter);
 
+        menuPerawat.setText("Data Perawat");
         menuPerawat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuPerawatActionPerformed(evt);
@@ -151,6 +155,9 @@ public class FrmUtama extends javax.swing.JFrame {
 
         jMenu2.setText("Front Office");
 
+        jMenu3.setText("Pendaftaran");
+
+        menuPendaftaranPasBaru.setText("Pasien Baru");
         menuPendaftaranPasBaru.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuPendaftaranPasBaruActionPerformed(evt);
@@ -247,15 +254,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuJaminanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuJaminanActionPerformed
         // TODO add your handling code here:
-//        jDesktopPane1.removeAll();
-//        jDesktopPane1.repaint();
-//        FrmIntJaminan fis = new FrmIntJaminan();
-//        Dimension parentSize = jDesktopPane1.getSize();
-//        Dimension childSize = fis.getSize();
-//        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
-//        jDesktopPane1.add(fis);
-//        fis.show();
-//        fis.toFront();
+        jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
+        FrmIntJaminan fis = new FrmIntJaminan();
+        Dimension parentSize = jDesktopPane1.getSize();
+        Dimension childSize = fis.getSize();
+        fis.setLocation((parentSize.width - childSize.width) / 2, (parentSize.height - childSize.height) / 2);
+        jDesktopPane1.add(fis);
+        fis.show();
+        fis.toFront();
 
     }//GEN-LAST:event_menuJaminanActionPerformed
 
