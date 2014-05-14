@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.A_SpesialisServiceTest" skipped="0" tests="14" time="0.517" timestamp="2014-05-14T00:31:39">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.F_StafGuiServiceTest" skipped="0" tests="5" time="8.142" timestamp="2014-05-14T00:32:07">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -53,7 +53,7 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.A_SpesialisServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.A_SpesialisServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher5615505546465562696.properties propsfile=F:\6. Repository\auto-CI\build\junit423987679327402632.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.F_StafGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.F_StafGuiServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher4731468555899862302.properties propsfile=F:\6. Repository\auto-CI\build\junit2682156848880504072.properties" />
     <property name="built-jar.properties" value="F:\6. Repository\auto-CI\build\built-jar.properties" />
     <property name="ant.file" value="F:\6. Repository\auto-CI\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -180,34 +180,16 @@
     <property name="java.specification.version" value="1.7" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="a_insertSpesialisNormal" time="0.312" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="b_insertSpesialisKosong" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="c_insertSpesialisIdKosong" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="d_insertSpesialisNmKosong" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="e_insertSpesialisTarifKosong" time="0.007" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="f_insertSpesialisIdLebih" time="0.004" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="g_insertSpesialisNmLebih" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="h_insertSpesialisTarifLebih" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="i_insertSpesialisTarifKacau" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="j_insertSpesialisDuplikasi" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="k_updateSpesialisNormal" time="0.003" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="l_updateSpesialisKosong" time="0.001" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="m_deleteSpesialisNormal" time="0.004" />
-  <testcase classname="medrecappz.Services.A_SpesialisServiceTest" name="n_getAllSpesialisNormal" time="0.0" />
-  <system-out><![CDATA[1. Insert Spesialis Normal
-2. Insert Spesialis Kosong
-3. Insert Spesialis Id Kosong
-4. Insert Spesialis Nama Kosong
-5. Insert Spesialis Tarif Kosong
-6. Insert Spesialis Id Lebih
-7. Insert Spesialis Nama Lebih
-8. Insert Spesialis Tarif Lebih
-9. Insert Spesialis Tarif Kacau
-10. Insert Spesialis Duplikasi
-11. Update Spesialis Normal
-12. Update Spesialis Kosong
-13. Delete Spesialis Normal
-14. Get All Spesialis Normal
+  <testcase classname="medrecappz.Services.F_StafGuiServiceTest" name="a_insertDataStafKosong" time="1.074" />
+  <testcase classname="medrecappz.Services.F_StafGuiServiceTest" name="b_insertDataSpesialis" time="0.532" />
+  <testcase classname="medrecappz.Services.F_StafGuiServiceTest" name="c_updateDataStafKosong" time="1.707" />
+  <testcase classname="medrecappz.Services.F_StafGuiServiceTest" name="d_updateDataStaf" time="0.527" />
+  <testcase classname="medrecappz.Services.F_StafGuiServiceTest" name="e_deleteDataStaf" time="0.689" />
+  <system-out><![CDATA[1. InsertDataStafKosong
+2. InsertDataStaf
+3. UpdateDataStafKosong
+4. UpdateDataStaf
+5. DeleteDataStaf
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
