@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.C_JaminanServiceTest" skipped="0" tests="4" time="0.288" timestamp="2014-05-21T05:11:14">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.C_JaminanServiceTest" skipped="0" tests="4" time="0.278" timestamp="2014-05-21T05:40:00">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -28,7 +28,7 @@
     <property name="javac.debug" value="true" />
     <property name="run.classpath" value="F:/6. Repository/auto-CI/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:build/classes" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="ant.project.invoked-targets" value="default,drop-db" />
+    <property name="ant.project.invoked-targets" value="default" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="mysqladmin" value="C:\xampp\mysql\bin\mysqladmin.exe" />
@@ -53,7 +53,7 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.C_JaminanServiceTest filtertrace=true haltOnError=true haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.C_JaminanServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher2180220256598097927.properties propsfile=F:\6. Repository\auto-CI\build\junit4952564554174204371.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.C_JaminanServiceTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.C_JaminanServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher2698103601402828357.properties propsfile=F:\6. Repository\auto-CI\build\junit7045846714822930367.properties" />
     <property name="built-jar.properties" value="F:\6. Repository\auto-CI\build\built-jar.properties" />
     <property name="ant.file" value="F:\6. Repository\auto-CI\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -145,7 +145,6 @@
     <property name="libraries.dir" value="F:/6. Repository/auto-CI/lib" />
     <property name="java.class.path" value="F:\6. Repository\auto-CI\lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar;F:\6. Repository\auto-CI\build\classes;F:\6. Repository\auto-CI\lib\junit-4.11.jar;F:\6. Repository\auto-CI\lib\junit_4\junit-4.5.jar;F:\6. Repository\auto-CI\lib\fest-swing-1.2\fest-assert-1.2.jar;F:\6. Repository\auto-CI\lib\fest-swing-1.2\fest-reflect-1.2.jar;F:\6. Repository\auto-CI\lib\fest-swing-1.2\fest-swing-1.2.jar;F:\6. Repository\auto-CI\lib\fest-swing-1.2\fest-util-1.1.2.jar;F:\6. Repository\auto-CI\build\test\classes;C:\apache-ant-1.9.2\lib\ant-launcher.jar;c:\apache-ant-1.9.2\lib\ant.jar;c:\apache-ant-1.9.2\lib\ant-junit.jar;c:\apache-ant-1.9.2\lib\ant-junit4.jar" />
     <property name="annotation.processing.processor.options" value="" />
-    <property name="tests.failed" value="true" />
     <property name="jdbc.jar" value="lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar" />
     <property name="ant.library.dir" value="c:/apache-ant-1.9.2/lib" />
     <property name="os.arch" value="amd64" />
@@ -170,8 +169,8 @@
     <property name="file.reference.fest-reflect-1.2.jar" value="lib\fest-swing-1.2\fest-reflect-1.2.jar" />
     <property name="ant.file.type.MedRecApp-impl" value="file" />
     <property name="default.javac.target" value="1.4" />
-    <property name="javac.classpath" value="F:/6. Repository/auto-CI/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
     <property name="javadoc.additionalparam" value="" />
+    <property name="javac.classpath" value="F:/6. Repository/auto-CI/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="do.archive+manifest.available" value="true" />
     <property name="javac.target" value="1.5" />
@@ -180,8 +179,8 @@
     <property name="java.specification.version" value="1.7" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="a_insertJaminan" time="0.216" />
-  <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="b_updateJaminan" time="0.002" />
+  <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="a_insertJaminan" time="0.201" />
+  <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="b_updateJaminan" time="0.003" />
   <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="c_deleteJaminan" time="0.001" />
   <testcase classname="medrecappz.Services.C_JaminanServiceTest" name="d_getAllJaminan" time="0.0" />
   <system-out><![CDATA[1. serviceInsertJaminan
