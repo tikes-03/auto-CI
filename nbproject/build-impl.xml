@@ -374,6 +374,23 @@ is divided into following sections:
             </sequential>
         </macrodef>
     </target>
+
+    
+    
+    <target name="uji-gagal" if="test.failed" depends="test">
+    	<sql driver="${sql.driver}"
+            url="${sql.url}"
+            userid="${sql.user}"
+            password="${sql.pass}">
+            <classpath>
+                <pathelement location="${jdbc.jar}"/>
+            </classpath>            
+            DROP DATABASE medrec;
+        </sql>
+    </target>    
+
+
+
     <target name="-init-macrodef-junit">
         <macrodef name="junit" uri="http://www.netbeans.org/ns/j2se-project/3">
             <attribute default="${includes}" name="includes"/>
@@ -864,11 +881,38 @@ is divided into following sections:
 	******************************** PEMBUATAN DATABASE ********************************
 				==============================================================
     -->
-    <target depends="init,compile-test,-pre-test-run, create-db" if="have.tests" name="-do-test-run">
+    <target depends="init,compile-test,-pre-test-run,create-db" if="have.tests" name="-do-test-run">
         <j2seproject3:junit testincludes="**/*Test.java"/>
+
+        <!--
+        <fail if="tests.failed" unless="ignore.failing.tests">
+        	<sql driver="${sql.driver}"
+	            url="${sql.url}"
+	            userid="${sql.user}"
+	            password="${sql.pass}">
+            <classpath>
+                <pathelement location="${jdbc.jar}"/>
+            </classpath>            
+            DROP DATABASE medrec;
+        	</sql>    
+        </fail>
+        -->
     </target>
-    <target depends="init,compile-test,-pre-test-run,-do-test-run" if="have.tests" name="-post-test-run">
-        <fail if="tests.failed" unless="ignore.failing.tests">Some tests failed; see details above.</fail>
+    <target depends="init,compile-test,-pre-test-run,-do-test-run" if="have.tests" name="-post-test-run">       
+        <!-- <fail if="tests.failed" unless="ignore.failing.tests">Some tests failed; see details above.</fail> -->
+        
+        <fail if="tests.failed" unless="ignore.failing.tests">
+        	<sql driver="${sql.driver}"
+	            url="${sql.url}"
+	            userid="${sql.user}"
+	            password="${sql.pass}">
+            <classpath>
+                <pathelement location="${jdbc.jar}"/>
+            </classpath>            
+            DROP DATABASE medrec;
+        	</sql>
+        </fail>
+    
     </target>
     <target depends="init" if="have.tests" name="test-report"/>
     <target depends="init" if="netbeans.home+have.tests" name="-test-browse"/>
@@ -877,7 +921,7 @@ is divided into following sections:
     <!--
     <target depends="init,compile-test,-pre-test-run,-do-test-run,test-report,-post-test-run,-test-browse" description="Run unit tests." name="test"/>
     -->
-    <target depends="-do-test-run,drop-db" description="Run unit tests." name="test"/>
+    <target depends="-do-test-run" description="Run unit tests." name="test"/>
 
 
 
