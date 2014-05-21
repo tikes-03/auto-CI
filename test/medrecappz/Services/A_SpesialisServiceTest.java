@@ -78,7 +78,7 @@ public class A_SpesialisServiceTest {
 
         tabelModelSpesialis.setData(instance.serviceGetAllSpesialisById(ExpIdSpesialis));
         assertEquals(ExpIdSpesialis, tabelModelSpesialis.getValueAt(0, 1));
-        assertEquals(ExpNmSpesialis, tabelModelSpesialis.getValueAt(0, 1));
+        assertEquals(ExpNmSpesialis, tabelModelSpesialis.getValueAt(0, 2));
         assertEquals(ExpTarifKonsul, tabelModelSpesialis.getValueAt(0, 2));
     }
 
