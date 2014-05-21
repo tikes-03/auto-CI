@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.D_JaminanGuiServiceTest" skipped="0" tests="5" time="13.727" timestamp="2014-05-21T05:40:01">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.D_JaminanGuiServiceTest" skipped="0" tests="5" time="10.485" timestamp="2014-05-21T05:49:15">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -28,7 +28,7 @@
     <property name="javac.debug" value="true" />
     <property name="run.classpath" value="F:/6. Repository/auto-CI/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:build/classes" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="ant.project.invoked-targets" value="default" />
+    <property name="ant.project.invoked-targets" value="test" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="mysqladmin" value="C:\xampp\mysql\bin\mysqladmin.exe" />
@@ -53,7 +53,7 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.D_JaminanGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.D_JaminanGuiServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher4111556999558856071.properties propsfile=F:\6. Repository\auto-CI\build\junit2245851498623054538.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.D_JaminanGuiServiceTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.D_JaminanGuiServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher1112046394556245446.properties propsfile=F:\6. Repository\auto-CI\build\junit5003899198864415286.properties" />
     <property name="built-jar.properties" value="F:\6. Repository\auto-CI\build\built-jar.properties" />
     <property name="ant.file" value="F:\6. Repository\auto-CI\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -179,11 +179,11 @@
     <property name="java.specification.version" value="1.7" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="a_insertDataJaminanKosong" time="1.961" />
-  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="b_insertDataJaminan" time="3.469" />
-  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="c_updateDataJaminanKosong" time="1.632" />
-  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="d_updateDataJaminan" time="1.295" />
-  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="e_deleteDataJaminan" time="1.974" />
+  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="a_insertDataJaminanKosong" time="2.191" />
+  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="b_insertDataJaminan" time="1.652" />
+  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="c_updateDataJaminanKosong" time="0.674" />
+  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="d_updateDataJaminan" time="0.761" />
+  <testcase classname="medrecappz.Services.D_JaminanGuiServiceTest" name="e_deleteDataJaminan" time="2.093" />
   <system-out><![CDATA[1. InsertDataJaminanKosong
 2. InsertDataJaminan
 3. UpdateDataJaminanKosong

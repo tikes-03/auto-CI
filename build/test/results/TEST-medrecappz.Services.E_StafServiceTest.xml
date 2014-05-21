@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.E_StafServiceTest" skipped="0" tests="4" time="0.279" timestamp="2014-05-21T05:40:16">
+<testsuite errors="0" failures="0" hostname="asus-PC" name="medrecappz.Services.E_StafServiceTest" skipped="0" tests="4" time="0.811" timestamp="2014-05-21T05:49:27">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -28,7 +28,7 @@
     <property name="javac.debug" value="true" />
     <property name="run.classpath" value="F:/6. Repository/auto-CI/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:build/classes" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="ant.project.invoked-targets" value="default" />
+    <property name="ant.project.invoked-targets" value="test" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="mysqladmin" value="C:\xampp\mysql\bin\mysqladmin.exe" />
@@ -53,7 +53,7 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.E_StafServiceTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.E_StafServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher962754100902985392.properties propsfile=F:\6. Repository\auto-CI\build\junit6839308518028448673.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecappz.Services.E_StafServiceTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\6. Repository\auto-CI\build\test\results\TEST-medrecappz.Services.E_StafServiceTest.xml crashfile=F:\6. Repository\auto-CI\build\junitvmwatcher5771183610363143091.properties propsfile=F:\6. Repository\auto-CI\build\junit5108525515826691790.properties" />
     <property name="built-jar.properties" value="F:\6. Repository\auto-CI\build\built-jar.properties" />
     <property name="ant.file" value="F:\6. Repository\auto-CI\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
@@ -179,10 +179,10 @@
     <property name="java.specification.version" value="1.7" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecappz.Services.E_StafServiceTest" name="a_insertStaf" time="0.202" />
-  <testcase classname="medrecappz.Services.E_StafServiceTest" name="b_updateStaf" time="0.003" />
-  <testcase classname="medrecappz.Services.E_StafServiceTest" name="c_deleteStaf" time="0.002" />
-  <testcase classname="medrecappz.Services.E_StafServiceTest" name="d_getAllStaf" time="0.001" />
+  <testcase classname="medrecappz.Services.E_StafServiceTest" name="a_insertStaf" time="0.613" />
+  <testcase classname="medrecappz.Services.E_StafServiceTest" name="b_updateStaf" time="0.005" />
+  <testcase classname="medrecappz.Services.E_StafServiceTest" name="c_deleteStaf" time="0.005" />
+  <testcase classname="medrecappz.Services.E_StafServiceTest" name="d_getAllStaf" time="0.002" />
   <system-out><![CDATA[1. serviceInsertStaf
 2. serviceUpdateStaf
 3. serviceDeleteStaf
