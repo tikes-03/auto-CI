@@ -29,11 +29,27 @@ is divided into following sections:
     <!--<target depends="test,jar,javadoc" description="Build and test whole project." name="default"/> -->
     <target depends="test,jar" description="Build and test whole project." name="default"/>
 
+	<!-- 
+                ========================
+                         DEPLOY 
+                ========================
+    -->    
+    <target depends="default" name="deploy">
+
+    	<mkdir dir="c:\\Deploy-medrecappZ"/>
+
+    	<copy todir="c:\\Deploy-medrecappZ" overwrite="true">
+    		<fileset dir="../auto-CI/dist">
+    			<include name="**/*.jar" />
+    		</fileset>
+    	</copy>
+    </target>
+
     <!-- 
                 ========================
                 CREATE DAN DROP DATABASE 
                 ========================
-            -->
+    -->
     <property name="sql.driver" value="com.mysql.jdbc.Driver"/>
     <property name="sql.url" value="jdbc:mysql://localhost:3306/medrec"/>
     <property name="sql.user" value="root"/>

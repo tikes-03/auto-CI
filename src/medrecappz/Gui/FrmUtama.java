@@ -79,6 +79,11 @@ public class FrmUtama extends javax.swing.JFrame {
         menuFile.setText("File");
 
         menuExit.setText("Exit");
+        menuExit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuExitActionPerformed(evt);
+            }
+        });
         menuFile.add(menuExit);
 
         jMenuBar1.add(menuFile);
@@ -216,6 +221,7 @@ public class FrmUtama extends javax.swing.JFrame {
 
         jMenu5.setText("Rekam Medis");
 
+        menuRekmedPasien.setText("Rekam Medis Pasien");
         menuRekmedPasien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuRekmedPasienActionPerformed(evt);
@@ -432,6 +438,12 @@ public class FrmUtama extends javax.swing.JFrame {
 //        fip.show();
 //        fip.toFront();
     }//GEN-LAST:event_menuRekmedPasienActionPerformed
+
+    private void menuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuExitActionPerformed
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_menuExitActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
