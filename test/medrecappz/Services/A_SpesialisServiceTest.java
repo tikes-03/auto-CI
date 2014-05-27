@@ -80,6 +80,7 @@ public class A_SpesialisServiceTest {
         assertEquals(ExpIdSpesialis, tabelModelSpesialis.getValueAt(0, 0));
         assertEquals(ExpNmSpesialis, tabelModelSpesialis.getValueAt(0, 1));
         assertEquals(ExpTarifKonsul, tabelModelSpesialis.getValueAt(0, 2));
+        // iseng tambah komen
     }
 
     @Test
