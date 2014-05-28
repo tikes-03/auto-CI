@@ -27,23 +27,7 @@ is divided into following sections:
         </condition>
     </fail>
     <!--<target depends="test,jar,javadoc" description="Build and test whole project." name="default"/> -->
-    <target depends="test,jar" description="Build and test whole project." name="default"/>
-
-	<!-- 
-                ========================
-                         DEPLOY 
-                ========================
-    -->    
-    <target depends="default" name="deploy">
-
-    	<mkdir dir="c:\\Deploy-medrecappZ"/>
-
-    	<copy todir="c:\\Deploy-medrecappZ" overwrite="true">
-    		<fileset dir="../auto-CI/dist">
-    			<include name="**/*.jar" />
-    		</fileset>
-    	</copy>
-    </target>
+    <target depends="jar" description="Build and test whole project." name="default"/>
 
     <!-- 
                 ========================
@@ -738,7 +722,7 @@ is divided into following sections:
     <!--
     <target depends="init,compile,-pre-jar,-do-jar-with-manifest,-do-jar-without-manifest,-do-jar-with-mainclass,-do-jar-with-libraries-and-splashscreen,-do-jar-with-libraries,-post-jar" description="Build JAR." name="jar"/>
     -->
-    <target depends="-do-jar-with-libraries" description="Build JAR." name="jar"/>
+    <target depends="test,-do-jar-with-libraries" description="Build JAR." name="jar"/>
 
 
 
