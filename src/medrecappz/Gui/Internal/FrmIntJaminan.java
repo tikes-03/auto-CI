@@ -22,7 +22,7 @@ import medrecappz.TabelModel.TabelModelJaminan;
 
 /**
  *
- * @author Hady
+ * @author Hernawati
  */
 public class FrmIntJaminan extends javax.swing.JInternalFrame {
 

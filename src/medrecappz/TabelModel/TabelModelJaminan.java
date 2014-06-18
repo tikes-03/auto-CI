@@ -13,7 +13,7 @@ import medrecappz.Entity.Jaminan;
 
 /**
  *
- * @author Hady
+ * @author Hernawati
  */
 public class TabelModelJaminan extends AbstractTableModel{
     

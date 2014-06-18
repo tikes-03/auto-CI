@@ -19,7 +19,7 @@ import medrecappz.Interface.JaminanInterface;
 
 /**
  *
- * @author Hady
+ * @author Hernawati
  */
 public class JaminanDao implements JaminanInterface{
 

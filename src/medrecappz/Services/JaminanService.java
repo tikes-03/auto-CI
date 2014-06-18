@@ -17,7 +17,7 @@ import medrecappz.KoneksiDatabase.KoneksiDB;
 
 /**
  *
- * @author Hady
+ * @author Hernawati
  */
 public class JaminanService {
     private Connection connection;
